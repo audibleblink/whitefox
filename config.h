@@ -35,7 +35,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 8
 
 /* Set 0 if debouncing isn't needed */
-#define DEBOUNCE    6
+#define DEBOUNCE    8
+
+/* Set tap length */
+#define TAPPING_TERM 180
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
